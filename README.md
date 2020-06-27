@@ -7,6 +7,8 @@ Hello Everyone, in this project well bebe able to Evaluate a News Article with N
 - cors
 - body-parser
 - terminal
+- webpack
+- sccs
 
 # Installation
 you can use the `Visual Studio Code` and install all the Prerequisite form the **terminal** using `npm`, and you must install this:
@@ -26,10 +28,11 @@ you can use the `Visual Studio Code` and install all the Prerequisite form the *
 Fork this repo, then clone your forked repo down to your computer:
 
 ```
-git clone -- git@github.com:nawafa87/webpack-express.git --
+git clone -- git@github.com:nawafa87/FEND-project4.git --
 ```
 
 `cd` into your new folder and run:
 - ```npm install```
 - ```npm start``` to start the app
 - this app runs on localhost:8081, but you can of course edit that in index.js
+- ```npm test``` to test file
