@@ -1,0 +1,12 @@
+$mincolor : white;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    color: white;
+    border: 1px solid white;
+
+    .evaluate{
+        justify-content: center;
+    }
+}

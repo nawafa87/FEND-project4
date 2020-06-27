@@ -1,0 +1,74 @@
+$mincolor:white;
+$backgrounColor:orange;
+$fontWeight: bold;
+form {
+    border: 1px;
+    border-radius: 3px;
+    padding-left: 50px;
+    width: 100%;
+}
+
+input {
+    padding: 5px;
+    width: 50%;
+    line-height: 5px;
+    margin: 10px 0;
+    height: 90px;
+    
+}
+#bt{
+    height: 30px;
+}
+
+    #results{
+        border-radius: 3px;
+        padding: 10px;
+        display: flex;
+        padding: 1px;
+        margin-left: 30px;    
+        justify-content: center;
+        flex-direction: column;
+  
+             strong{
+                 color: $mincolor;
+                 font-weight: bold;
+                 font-size: 30px;
+    
+                }
+
+             div:first-of-type{
+                border-radius: 10px;
+                border: 1px ;
+                width: 300px;
+                height: 370px;
+                padding-left:10px ;
+                 margin: 25px;          
+
+            }
+    
+            p{
+                font-size: 25px;
+                color:$mincolor;
+            }
+
+            #po{
+                font-weight: $fontWeight;
+            }
+            #sub{
+                font-weight: $fontWeight;
+            }
+            #texte{
+                font-weight: $fontWeight;
+            }
+
+            #pro{
+                font-weight: $fontWeight;
+            }
+
+            #subco{
+                font-weight: $fontWeight;
+            }
+
+    }
+
+    

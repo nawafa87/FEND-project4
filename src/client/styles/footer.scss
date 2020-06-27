@@ -1,0 +1,18 @@
+$minFontSize: 70px;
+$fontFamily:"Tahoma, Arial";
+
+footer{
+    font-family: $fontFamily;
+    position: relative;
+    width: 100%;
+    border: 1px solid white;
+    text-align: center;
+
+    p{
+        font-size: $minFontSize;
+        color: white;
+        margin: 0;
+        justify-content: center;
+    }
+
+}

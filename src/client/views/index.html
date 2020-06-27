@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+    </head>
+
+    <body>
+        <div class="parent">
+        
+    <div class="div1">
+        <header>
+            <div class="">
+                <h3>Logo</h3>
+            </div>
+            <div class="evaluate">
+               <h3> Evaluate a news article with Natural Language Processing</h3>
+            </div>
+            
+            <div class="">
+                <h3>navigation</h3>
+            </div>
+        </header>
+    </div>
+   
+    <main>
+        <div class="div2">
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="nameV" type="text" name="input" value=""  placeholder="Name" size="10">
+                    <input id="bt" type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                </form>
+            <section>
+            
+
+            
+            <section>
+                <div id="results">
+                <strong>Form Results:</strong>
+                
+                    <div>
+                    <p id = "polarity"></p>
+                    <p id = "subjectivity"></p>
+                    <p id = "text"></p>
+                    <p id = "polarity_confidence"></p>
+                    <p id = "subjectivity_confidence"></p>
+                    </div>
+                </div>
+            </section>
+         
+               
+         
+        </div>
+        </main>
+        <section>
+        <div class="div4">
+            <h1>Welcome To Our Website!</h1>
+            <p>In this website you will be able to Evaluate a News Article with Natural Language Processing with Sentiment Analysis</p>
+            <h1>What is Sentiment Analysis ?</h1>
+            <p>Extracting sentiment from a piece of text such as a tweet, a review or an article can provide us with valuable insight 
+               about the author's emotions and perspective: whether the tone is positive, neutral or negative, and whether the text is
+                subjective (meaning it's reflecting the author's opinion) or objective (meaning it's expressing a fact). Our Sentiment
+                 Analysis endpoint is built exactly for this purpose.</p>
+        </div>       
+    </section>
+        
+    <div class="div3">
+        <footer>
+            <p>This is a footer</p>
+        </footer>
+    </div>
+
+    </div>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
+        
+    </body>
+</html>
